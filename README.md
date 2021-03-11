@@ -8,3 +8,9 @@ Custom Hook
 
 - custom Hook 함수에 탭의 초기값을 인자로 하여 디폴트 값을 적용 할 수 있다.
 - 또한 여러가지 요소 검사도 가능 할것 같다.
+
+3. Use Effect
+
+- class 타입 react의 lifeCycle 을 거의 전부 포함할 수 있는 Hook
+- componentDidMount, componentWillUpdate, componentDidUnMount 의 lifecycle 을 계승한다.
+- State 와 같이 함수형 react 를 더 강력하게 만들어 주는 Hook
