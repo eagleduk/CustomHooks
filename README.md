@@ -22,3 +22,6 @@ Custom Hook
 5. Use Ref & Use Effect Return
 - useRef 의 리턴값을 html 태그에 부여함으로써 부여된 html 태그의 reference를 사용 할 수있다.
 - useEffect 에서 함수를 return 하면, 사용하는 컴포넌트가 Unmount 될때 호출하게 된다. return 밖의 함수는 component가 DidMount, UpdateMount 될때마다 실행된다.
+
+6. Use Confirm & Use PreventLeave
+- useState, useEffect 및 useRef 등의 제공 Hook을 이용하는게 아닌, function 만으로 Hook을 만들 수 있다.
