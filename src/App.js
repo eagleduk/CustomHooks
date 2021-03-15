@@ -1,6 +1,7 @@
 import CustomInput from "./components/CustomInput";
 import CustomTabs from "./components/CustomTabs";
 import Effect from "./components/Effect";
+import ElementReference from "./components/ElementReference";
 import TitleUpdater from "./components/TitleUpdater";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <CustomTabs initailIndex={1} />
       <Effect />
       <TitleUpdater initialTitle="Loading..." />
+      <ElementReference />
     </div>
   );
 }

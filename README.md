@@ -18,3 +18,7 @@ Custom Hook
 4. Title Updater
 
 - Effect 와 State 를 함께 사용. 입력값으로 browser의 title 을 변경해 준다.
+
+5. Use Ref & Use Effect Return
+- useRef 의 리턴값을 html 태그에 부여함으로써 부여된 html 태그의 reference를 사용 할 수있다.
+- useEffect 에서 함수를 return 하면, 사용하는 컴포넌트가 Unmount 될때 호출하게 된다. return 밖의 함수는 component가 DidMount, UpdateMount 될때마다 실행된다.
