@@ -5,6 +5,7 @@ import ElementReference from "./components/ElementReference";
 import TitleUpdater from "./components/TitleUpdater";
 import CustomConfirm from "./components/CustomConfirm";
 import CustomPreventLeave from "./components/CustomPreventLeave";
+import BeforeLeave from "./components/BeforeLeave";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <CustomConfirm />
       <hr />
       <CustomPreventLeave />
+      <hr />
+      <BeforeLeave />
     </div>
   );
 }

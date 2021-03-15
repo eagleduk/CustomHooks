@@ -25,3 +25,7 @@ Custom Hook
 
 6. Use Confirm & Use PreventLeave
 - useState, useEffect 및 useRef 등의 제공 Hook을 이용하는게 아닌, function 만으로 Hook을 만들 수 있다.
+
+7. Use Before Leave
+- 마우스의 위치에 따라 여러가지 함수를 호출 할 수 있다...
+- useEffect 로 이벤트를 추가하고, 삭제 한다.
