@@ -29,3 +29,7 @@ Custom Hook
 7. Use Before Leave
 - 마우스의 위치에 따라 여러가지 함수를 호출 할 수 있다...
 - useEffect 로 이벤트를 추가하고, 삭제 한다.
+
+8. Use Fadein & Use Network
+- useRef 를 이용하여, element 에 reference를 할당할때, 스타일을 부여할 수 있다.
+- useEffect 를 사용하여, online/offline 이벤트를 추가하여, 현재 network 상태를 확인할 수 있다.

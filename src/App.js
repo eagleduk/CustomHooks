@@ -6,6 +6,8 @@ import TitleUpdater from "./components/TitleUpdater";
 import CustomConfirm from "./components/CustomConfirm";
 import CustomPreventLeave from "./components/CustomPreventLeave";
 import BeforeLeave from "./components/BeforeLeave";
+import FadeInComponent from "./components/FadeInComponent";
+import NetworkStatus from "./components/NetworkStatus";
 
 function App() {
   return (
@@ -25,6 +27,10 @@ function App() {
       <CustomPreventLeave />
       <hr />
       <BeforeLeave />
+      <hr />
+      <FadeInComponent />
+      <hr />
+      <NetworkStatus />
     </div>
   );
 }
