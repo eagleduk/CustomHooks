@@ -10,6 +10,7 @@ import FadeInComponent from "./components/FadeInComponent";
 import NetworkStatus from "./components/NetworkStatus";
 import ScrollComponent from "./components/ScrollComponent";
 import FullScreen from "./components/FullScreen";
+import Notification from "./components/Notification";
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
       <NetworkStatus />
       <ScrollComponent />
       <FullScreen />
+      <hr />
+      <Notification />
     </div>
   );
 }
