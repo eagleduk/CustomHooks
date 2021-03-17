@@ -8,6 +8,8 @@ import CustomPreventLeave from "./components/CustomPreventLeave";
 import BeforeLeave from "./components/BeforeLeave";
 import FadeInComponent from "./components/FadeInComponent";
 import NetworkStatus from "./components/NetworkStatus";
+import ScrollComponent from "./components/ScrollComponent";
+import FullScreen from "./components/FullScreen";
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
       <FadeInComponent />
       <hr />
       <NetworkStatus />
+      <ScrollComponent />
+      <FullScreen />
     </div>
   );
 }

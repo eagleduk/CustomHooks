@@ -33,3 +33,6 @@ Custom Hook
 8. Use Fadein & Use Network
 - useRef 를 이용하여, element 에 reference를 할당할때, 스타일을 부여할 수 있다.
 - useEffect 를 사용하여, online/offline 이벤트를 추가하여, 현재 network 상태를 확인할 수 있다.
+
+9. Use Scroll & Use Full Screen
+- Use Effect Hook 을 사용시에는 언제 수행할지, 또한 이벤트를 추가할때 이벤트 삭제도 병행해 주지 않으면, 이벤트가 중복으로 수행 되는 경우가 발생 할 수도 있다.
