@@ -40,3 +40,6 @@ Custom Hook
 10. Use Notification
 - 브라우저에 알람 기능을 이용한다. 경고창이나 그러한 것들보다 기능도 많고, 커스텀도 다양하다. 
 - 더 많은 옵션에 대한 내용은 MDN을 참고할 것..
+
+11. Use Axois
+- 현재 request 시 url 주소 변경 때문에 에러 발생.. codesandbox 에서는 없는 에러.. 아무래도 option 타협을 해야 할듯.

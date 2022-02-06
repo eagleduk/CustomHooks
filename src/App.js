@@ -11,6 +11,7 @@ import NetworkStatus from "./components/NetworkStatus";
 import ScrollComponent from "./components/ScrollComponent";
 import FullScreen from "./components/FullScreen";
 import Notification from "./components/Notification";
+import Axios from "./components/Axios";
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
       <FullScreen />
       <hr />
       <Notification />
+      <hr />
+      <Axios />
     </div>
   );
 }
